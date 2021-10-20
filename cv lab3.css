@@ -1,0 +1,95 @@
+body {
+  background-color:lightgreen;
+  font-family:Helvetica;
+}
+
+h1 {
+	text-align:Center;
+	text-decoration:Underline;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+h3 {
+	text-align:Center;
+	font-style:Italic;
+}
+
+h2 {
+	text-decoration:Underline;
+	font-weight:bold;
+}
+
+.myprofile {
+  column-count: 3;
+}
+
+#myHeader {
+  background-color:white;
+  color: black;
+  font-family:Helvetica;
+  padding: 40px;
+  text-align: center;
+} 
+
+.flex-container {
+  display: flex;
+  background-color: yellow;
+}
+
+
+
+
+.flex-container > div {
+  background-color: #black;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+#main {
+  width: center;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#main div {
+  width: 70px;
+  height: 70px;
+  font-weight:bold;
+}
+
+
+.wrapper {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+#menulist {
+  margin: 5;
+  padding: 5;
+}
+
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid Blue;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 1px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+
+
